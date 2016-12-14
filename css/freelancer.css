@@ -92,6 +92,21 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
+
+header .sub-text .work,
+header .sub-text .play {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+header .sub-text .content-text {
+  font-size: 2em;
+  font-weight: 300;
+}
+
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
@@ -100,6 +115,20 @@ header .intro-text .skills {
   header .intro-text .name {
     font-size: 4.75em;
   }
+
+  header .sub-text .work,
+  header .sub-text .play {
+    font-size: 3.75em;
+  }
+
+  header .sub-text .work {
+    color: orange;
+  }
+
+  header .sub-text .play {
+    color: #00D634;
+  }
+
   header .intro-text .skills {
     font-size: 1.75em;
   }
